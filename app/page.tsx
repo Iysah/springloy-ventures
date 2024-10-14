@@ -164,10 +164,10 @@ export default function Component() {
           <div className="container px-4 md:px-6">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl text-center mb-12">Contact Us</h2>
             <div className="max-w-2xl mx-auto">
-              <form className="space-y-4">
-                <Input placeholder="Your Name" />
-                <Input placeholder="Your Email" type="email" />
-                <Textarea placeholder="Your Message" />
+              <form className="space-y-4 flex justify-center flex-col">
+                <input placeholder="Your Name" />
+                <input placeholder="Your Email" type="email" />
+                <textarea placeholder="Your Message" />
                 <Button className="w-full">Send Message</Button>
               </form>
             </div>
